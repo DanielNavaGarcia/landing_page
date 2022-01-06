@@ -1,0 +1,171 @@
+body{
+    background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+    color: #e5e3fb;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    overflow: scroll;
+    position: relative;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 6.5em; 
+    text-transform: capitalize; 
+    text-align: right;
+
+    text-shadow: 1px 1px 2px black, 0 0 1em #707aed, 0 0 0.2em #8C61F0;
+
+
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2.5em; 
+    text-transform: capitalize; 
+    text-align: center;
+}
+
+
+/* nav */
+
+.header-nav{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(90deg, rgba(185, 147, 214, 0.75) 0%, rgba(140, 166, 219, 0.75) 100%);
+    font-size: 1.6em;
+}
+
+.nav-link{
+    color: #54499E;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    color: #e5e3fb;
+}
+
+.nav-link.active{
+    background-color: #54499E !important;
+    color: #e5e3fb !important;
+}
+/* introduction */
+
+.introduction{
+    height: 964px;
+    padding-top: 80px;
+    width: auto;
+    font-family: 'Josefin Sans', sans-serif;
+
+    display: flex;    
+    align-items: center;
+} 
+
+.introduce-myself{
+    width: 50%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #54499E);
+    padding-right: 50px;
+
+}
+
+
+/* about me */
+
+.about{
+    height: 964px;
+    padding-top: 80px;
+    display: flex;    
+    align-items: stretch;    
+    flex-direction: row;
+}
+
+.about-me{
+
+    width: 50%;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+/* boxes containing images */
+
+.box-containing-images{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+}
+
+.display-logos{
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.logo-box{
+    margin: 5px 15px 5px 15px;
+}
+
+.logo-image{
+    display: block;
+    width: 100%;
+}
+
+.logo-image:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
+}
+
+/* portafolio */
+
+.portafolio{
+    height: 964px;
+    padding-top: 80px;
+
+}
+
+/* contact me */
+
+.contact{
+    height: 964px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.external-links{
+    display: flex;    
+    align-items: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-contact{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* fields */
+
+.field{
+    width: 400px;
+    border: 1px solid #54499E;
+    border-radius: 10px;
+    float: right;
+    margin: 5px 0px 5px 0px;
+
+}
